@@ -1,0 +1,35 @@
+{
+  "validade_cardapio": "31/02/2026",
+  "validade_calendario": "31/12/2026",
+  "aviso_global": "",
+  "cardapio": [
+    {
+      "semana": "Semana 1 (04/02 - 06/02)",
+      "dias": [
+        ["Quarta (04)", "Carne moída, Arroz, Feijão", "Pão c/ queijo"],
+        ["Quinta (05)", "Frango cubos, Batata doce", "Bolo de cenoura"],
+        ["Sexta (06)", "Sobrecoxa, Farofa", "Torta de pão"]
+      ]
+    }
+    // ... adicione o resto das semanas aqui
+  ],
+  "horarios": {
+    "Segunda-Feira": [
+      ["07:00", "Proj. de Vida", "Natiele", "account-heart-outline"],
+      ["07:50", "Geografia", "Pâmela", "earth"],
+      ["08:40", "LANCHE", "", ""],
+      ["09:00", "Estudo Orient.", "Andreza", "book-open-page-variant-outline"],
+      ["09:50", "Matemática", "Rayane", "calculator-variant"],
+      ["10:40", "Ciências", "Eduardo", "flask-outline"],
+      ["11:30", "ALMOÇO", "", ""],
+      ["12:20", "Inglês", "Gisele", "translate"],
+      ["13:10", "Protagonismo", "Zielton", "human-handsup"]
+    ]
+    // ... adicione os outros dias
+  },
+  "calendario": [
+    ["02/02 (Seg)", "Planejamento Pedagógico", "Sem Aula", "close-circle"],
+    ["04/02 (Qua)", "Início das Aulas", "Aula Normal", "check-circle"]
+    // ... adicione o resto
+  ]
+}
