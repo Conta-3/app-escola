@@ -1,17 +1,48 @@
 {
-  "validade_cardapio": "31/02/2026",
-  "validade_calendario": "31/12/2026",
+  "validade_cardapio": "28/02/2026",
+  "validade_calendario": "28/02/2026",
   "aviso_global": "",
   "cardapio": [
     {
-      "semana": "Semana 1 (04/02 - 06/02)",
+      "semana": "Semana 1 (02/02 - 06/02)",
       "dias": [
-        ["Quarta (04)", "Carne moída, Arroz, Feijão", "Pão c/ queijo"],
-        ["Quinta (05)", "Frango cubos, Batata doce", "Bolo de cenoura"],
-        ["Sexta (06)", "Sobrecoxa, Farofa", "Torta de pão"]
+        ["Segunda (02)", "NÃO LETIVO (Planejamento)", "-"],
+        ["Terça (03)", "NÃO LETIVO (Planejamento)", "-"],
+        ["Quarta (04)", "Carne moída, Arroz, Feijão", "Pão francês c/ queijo"],
+        ["Quinta (05)", "Frango em cubos, Batata doce", "Bolo de cenoura"],
+        ["Sexta (06)", "Sobrecoxa assada, Farofa", "Torta de pão"]
+      ]
+    },
+    {
+      "semana": "Semana 2 (09/02 - 13/02)",
+      "dias": [
+        ["Segunda (09)", "Carne desfiada, Pepino", "Hot dog c/ requeijão"],
+        ["Terça (10)", "Pernil suíno, Polenta", "Tortinha de carne"],
+        ["Quarta (11)", "Frango isca, Batata sauté", "Bolo de banana"],
+        ["Quinta (12)", "Sobrecoxa, Purê aipim", "Pão de batata c/ frango"],
+        ["Sexta (13)", "Frango cubos, Abobrinha", "Pão com carne desfiada"]
+      ]
+    },
+    {
+      "semana": "Semana 3 (16/02 - 20/02)",
+      "dias": [
+        ["Segunda (16)", "FERIADO (Carnaval)", "-"],
+        ["Terça (17)", "FERIADO (Carnaval)", "-"],
+        ["Quarta (18)", "FERIADO (Cinzas)", "-"],
+        ["Quinta (19)", "Carne desfiada, Abóbora", "Pão de batata c/ frango"],
+        ["Sexta (20)", "Frango cubos, Polenta", "Pão caseiro c/ manteiga"]
+      ]
+    },
+    {
+      "semana": "Semana 4 (23/02 - 27/02)",
+      "dias": [
+        ["Segunda (23)", "Carne desfiada, Chuchu", "Hot dog c/ carne moída"],
+        ["Terça (24)", "Frango ao creme de milho", "Pão caseiro c/ manteiga"],
+        ["Quarta (25)", "Pernil acebolado, Purê abóbora", "Torta de pão"],
+        ["Quinta (26)", "Strogonoff, Batata rústica", "Salada de frutas"],
+        ["Sexta (27)", "Torta de peixe, Salada", "Pão francês c/ queijo"]
       ]
     }
-    // ... adicione o resto das semanas aqui
   ],
   "horarios": {
     "Segunda-Feira": [
@@ -24,12 +55,60 @@
       ["11:30", "ALMOÇO", "", ""],
       ["12:20", "Inglês", "Gisele", "translate"],
       ["13:10", "Protagonismo", "Zielton", "human-handsup"]
+    ],
+    "Terça-Feira": [
+      ["07:00", "Português", "Alice", "alphabetical-variant"],
+      ["07:50", "Português", "Alice", "alphabetical-variant"],
+      ["08:40", "LANCHE", "", ""],
+      ["09:00", "Ciências", "Eduardo", "flask-outline"],
+      ["09:50", "Matemática", "Rayane", "calculator-variant"],
+      ["10:40", "Ed. Física", "Zielton", "soccer"],
+      ["11:30", "ALMOÇO", "", ""],
+      ["12:20", "Arte", "Ádila", "palette-outline"],
+      ["13:10", "Proj. de Vida", "Natiele", "account-heart-outline"]
+    ],
+    "Quarta-Feira": [
+      ["07:00", "Geografia", "Pâmela", "earth"],
+      ["07:50", "Ed. Física", "Zielton", "soccer"],
+      ["08:40", "LANCHE", "", ""],
+      ["09:00", "Português", "Alice", "alphabetical-variant"],
+      ["09:50", "Inglês", "Gisele", "translate"],
+      ["10:40", "Português", "Alice", "alphabetical-variant"],
+      ["11:30", "ALMOÇO", "", ""],
+      ["12:20", "História", "M. Izabella", "history"],
+      ["13:10", "Arte", "Ádila", "palette-outline"]
+    ],
+    "Quinta-Feira": [
+      ["07:00", "Ciências", "Eduardo", "flask-outline"],
+      ["07:50", "Pens. Científico", "Jéssica", "microscope"],
+      ["08:40", "LANCHE", "", ""],
+      ["09:00", "Matemática", "Rayane", "calculator-variant"],
+      ["09:50", "Ativ. Pesquisa", "Maxwell", "magnify"],
+      ["10:40", "Prát. Exp. Ciênc.", "Eduardo", "test-tube"],
+      ["11:30", "ALMOÇO", "", ""],
+      ["12:20", "História", "M. Izabella", "history"],
+      ["13:10", "Matemática", "Rayane", "calculator-variant"]
+    ],
+    "Sexta-Feira": [
+      ["07:00", "Geografia", "Pâmela", "earth"],
+      ["07:50", "Matemática", "Rayane", "calculator-variant"],
+      ["08:40", "LANCHE", "", ""],
+      ["09:00", "Estudo Orient.", "Andreza", "book-open-page-variant-outline"],
+      ["09:50", "Português", "Alice", "alphabetical-variant"],
+      ["10:40", "História", "M. Izabella", "history"],
+      ["11:30", "ALMOÇO", "", ""],
+      ["12:20", "Eletiva", "---", "star-outline"],
+      ["13:10", "Eletiva", "---", "star-outline"]
     ]
-    // ... adicione os outros dias
   },
   "calendario": [
     ["02/02 (Seg)", "Planejamento Pedagógico", "Sem Aula", "close-circle"],
-    ["04/02 (Qua)", "Início das Aulas", "Aula Normal", "check-circle"]
-    // ... adicione o resto
+    ["03/02 (Ter)", "Planejamento Pedagógico", "Sem Aula", "close-circle"],
+    ["04/02 (Qua)", "Início das Aulas", "Aula Normal", "check-circle"],
+    ["05/02 a 13/02", "Dias Letivos", "Aula Normal", "check-circle"],
+    ["16/02 (Seg)", "Feriado (Carnaval)", "Sem Aula", "party-popper"],
+    ["17/02 (Ter)", "Feriado (Carnaval)", "Sem Aula", "party-popper"],
+    ["18/02 (Qua)", "Feriado (Cinzas)", "Sem Aula", "close-circle"],
+    ["19/02 a 27/02", "Dias Letivos", "Aula Normal", "check-circle"]
   ]
 }
