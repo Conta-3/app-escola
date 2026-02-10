@@ -106,8 +106,8 @@
     ["03/02 (Ter)", "Planejamento Pedagógico", "Sem Aula", "close-circle"],
     ["04/02 (Qua)", "Início das Aulas", "Aula Normal", "check-circle"],
     ["05/02 a 13/02", "Dias Letivos", "Aula Normal", "check-circle"],
-    ["16/02 (Seg)", "Feriado (Carnaval)", "Sem Aula", "party-popper"],
-    ["17/02 (Ter)", "Feriado (Carnaval)", "Sem Aula", "party-popper"],
+    ["16/02 (Seg)", "Feriado (Carnaval)", "Sem Aula", "close-circle"],
+    ["17/02 (Ter)", "Feriado (Carnaval)", "Sem Aula", "close-circle"],
     ["18/02 (Qua)", "Feriado (Cinzas)", "Sem Aula", "close-circle"],
     ["19/02 a 27/02", "Dias Letivos", "Aula Normal", "check-circle"]
   ]
